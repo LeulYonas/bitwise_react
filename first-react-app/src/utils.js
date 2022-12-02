@@ -1,12 +1,12 @@
 export function getMoviesByName(name, type) {
   return fetch(
-    `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}&s=${name}&type=${type}`
+    `http://www.omdbapi.com/?apikey=5cc63a45&s=${name}&type=${type}`
   );
 }
 
 export function getMovieById(movieId) {
   return fetch(
-    `http://www.omdbapi.com/?apikey=${process.env.REACT_APP_API_KEY}&i=${movieId}`
+    `http://www.omdbapi.com/?apikey=5cc63a45&i=${movieId}`
   );
 }
 
